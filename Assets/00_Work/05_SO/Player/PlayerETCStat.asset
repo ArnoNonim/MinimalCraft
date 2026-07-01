@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2be0c4b0283342aca47c11b5cae80a7a, type: 3}
+  m_Name: PlayerETCStat
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Player.SO.PlayerETCStatSO
+  groundDrag: 6
+  airDrag: 1
+  sensitivity: 0.2
+  smoothSpeed: 40
+  walkBobbingSpeed: 8
+  walkBobbingAmountX: 0.1
+  walkBobbingAmountY: 0.2
+  sprintBobbingSpeed: 12
+  sprintBobbingAmountX: 0.15
+  sprintBobbingAmountY: 0.25
+  bobbingReturnSpeed: 6

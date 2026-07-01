@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062f55621eb84471849d14a9829c3483, type: 3}
+  m_Name: LeadAxe
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Item.SO.ToolItemSO
+  itemName: "\uB0A9 \uB3C4\uB07C"
+  description: "\uB0A9\uC911\uB3C5 \uB300\uBA74 \uD074\uB098\uB294 \uB3C4\uB07C"
+  maxStack: 1
+  itemType: 1
+  isFuel: 0
+  burnTime: 0
+  _resourcePath: Item/Tool/LeadAxe
+  toolData: {fileID: 11400000, guid: 8548171b6a6013641add1364c9597b11, type: 2}
+  toolTexture: {fileID: 2800000, guid: 3ca30289e27f9564fa20dcc8c09dd08e, type: 3}
+  meshThickness: 0.05

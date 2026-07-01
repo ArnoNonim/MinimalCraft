@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 538f6577722a4d5fb4ee9db34e893a60, type: 3}
+  m_Name: CactusStructure
+  m_EditorClassIdentifier: Assembly-CSharp::StructurePlacementSO
+  structure: {fileID: 11400000, guid: 26580fe8a9bbc1846b8fec8bceb7a5a8, type: 2}
+  biomes: 01000000
+  validSurfaceBlocks: 0402
+  noiseSeed: 124
+  biomeChances:
+  - biome: 1
+    chance: 0.1

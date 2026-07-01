@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062f55621eb84471849d14a9829c3483, type: 3}
+  m_Name: WoodenPickaxe
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Item.SO.ToolItemSO
+  itemName: "\uB098\uBB34 \uACE1\uAD2D\uC774"
+  description: "\uB108\uB35C\uB108\uB35C \uAE08\uBC29 \uBD80\uB7EC\uC9C8 \uAC83 \uAC19\uC740
+    \uACE1\uAD2D\uC774"
+  maxStack: 1
+  itemType: 1
+  isFuel: 1
+  burnTime: 10
+  _resourcePath: Item/Tool/WoodenPickaxe
+  toolData: {fileID: 11400000, guid: 8d041f33ef4307b42b44516896861554, type: 2}
+  toolTexture: {fileID: 2800000, guid: c52cf973436fe6142bfd7e922710b70e, type: 3}
+  meshThickness: 0.05

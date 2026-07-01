@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab100abba5a1d8f40ac082449a5d9ff1, type: 3}
+  m_Name: BlockData
+  m_EditorClassIdentifier: Assembly-CSharp::BlockDataSO
+  atlas: {fileID: 2800000, guid: fd2db1e0246df3541bd5cc9e8fba85eb, type: 3}
+  atlasMaterial: {fileID: 2100000, guid: 6a4046380b3339744a78b8a7c6b1571a, type: 2}
+  leavesMaterial: {fileID: 2100000, guid: 6dafc798aa624b8479d538e1c58f96db, type: 2}
+  waterMaterial: {fileID: 2100000, guid: 898eee0b0c7d6ae44a4f802f357c740d, type: 2}
+  atlasSize: 16
+  blocks:
+  - blockName: Air
+    topFace: {x: 0, y: 0}
+    sideFace: {x: 0, y: 0}
+    bottomFace: {x: 0, y: 0}
+    hardness: 1
+    miningSpeedMul: 1
+    requiredTool: 0
+    requiredToolLevel: 0
+  - blockName: Grass
+    topFace: {x: 1, y: 0}
+    sideFace: {x: 1, y: 1}
+    bottomFace: {x: 2, y: 0}
+    hardness: 1
+    miningSpeedMul: 1
+    requiredTool: 3
+    requiredToolLevel: 0
+  - blockName: Dirt
+    topFace: {x: 2, y: 0}
+    sideFace: {x: 2, y: 0}
+    bottomFace: {x: 2, y: 0}
+    hardness: 1
+    miningSpeedMul: 1
+    requiredTool: 3
+    requiredToolLevel: 0
+  - blockName: Stone
+    topFace: {x: 3, y: 0}
+    sideFace: {x: 3, y: 0}
+    bottomFace: {x: 3, y: 0}
+    hardness: 5
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 0
+  - blockName: Sand
+    topFace: {x: 4, y: 0}
+    sideFace: {x: 4, y: 0}
+    bottomFace: {x: 4, y: 0}
+    hardness: 1
+    miningSpeedMul: 1
+    requiredTool: 3
+    requiredToolLevel: 0
+  - blockName: Snow
+    topFace: {x: 5, y: 0}
+    sideFace: {x: 5, y: 0}
+    bottomFace: {x: 5, y: 0}
+    hardness: 1
+    miningSpeedMul: 1
+    requiredTool: 3
+    requiredToolLevel: 0
+  - blockName: GrassSnow
+    topFace: {x: 5, y: 0}
+    sideFace: {x: 5, y: 1}
+    bottomFace: {x: 2, y: 0}
+    hardness: 1
+    miningSpeedMul: 1
+    requiredTool: 3
+    requiredToolLevel: 0
+  - blockName: Log
+    topFace: {x: 6, y: 0}
+    sideFace: {x: 6, y: 1}
+    bottomFace: {x: 6, y: 0}
+    hardness: 3
+    miningSpeedMul: 1
+    requiredTool: 2
+    requiredToolLevel: 0
+  - blockName: Leaves
+    topFace: {x: 7, y: 0}
+    sideFace: {x: 7, y: 0}
+    bottomFace: {x: 7, y: 0}
+    hardness: 1
+    miningSpeedMul: 1
+    requiredTool: 0
+    requiredToolLevel: 0
+  - blockName: Cactus
+    topFace: {x: 8, y: 0}
+    sideFace: {x: 8, y: 0}
+    bottomFace: {x: 8, y: 0}
+    hardness: 2
+    miningSpeedMul: 1
+    requiredTool: 2
+    requiredToolLevel: 0
+  - blockName: CoalOre
+    topFace: {x: 0, y: 3}
+    sideFace: {x: 0, y: 3}
+    bottomFace: {x: 0, y: 3}
+    hardness: 6
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 1
+  - blockName: CopperOre
+    topFace: {x: 1, y: 3}
+    sideFace: {x: 1, y: 3}
+    bottomFace: {x: 1, y: 3}
+    hardness: 7
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 1
+  - blockName: TinOre
+    topFace: {x: 2, y: 3}
+    sideFace: {x: 2, y: 3}
+    bottomFace: {x: 2, y: 3}
+    hardness: 7
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 2
+  - blockName: LeadOre
+    topFace: {x: 3, y: 3}
+    sideFace: {x: 3, y: 3}
+    bottomFace: {x: 3, y: 3}
+    hardness: 7
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 3
+  - blockName: IronOre
+    topFace: {x: 4, y: 3}
+    sideFace: {x: 4, y: 3}
+    bottomFace: {x: 4, y: 3}
+    hardness: 9
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 4
+  - blockName: SilverOre
+    topFace: {x: 5, y: 3}
+    sideFace: {x: 5, y: 3}
+    bottomFace: {x: 5, y: 3}
+    hardness: 9
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 5
+  - blockName: TungstenOre
+    topFace: {x: 6, y: 3}
+    sideFace: {x: 6, y: 3}
+    bottomFace: {x: 6, y: 3}
+    hardness: 9
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 6
+  - blockName: MithrilOre
+    topFace: {x: 7, y: 3}
+    sideFace: {x: 7, y: 3}
+    bottomFace: {x: 7, y: 3}
+    hardness: 10
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 7
+  - blockName: CobaltOre
+    topFace: {x: 8, y: 3}
+    sideFace: {x: 8, y: 3}
+    bottomFace: {x: 8, y: 3}
+    hardness: 10
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 8
+  - blockName: DiamondOre
+    topFace: {x: 9, y: 3}
+    sideFace: {x: 9, y: 3}
+    bottomFace: {x: 9, y: 3}
+    hardness: 12
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 9
+  - blockName: TerraniumOre
+    topFace: {x: 10, y: 3}
+    sideFace: {x: 10, y: 3}
+    bottomFace: {x: 10, y: 3}
+    hardness: 15
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 10
+  - blockName: CoalBlock
+    topFace: {x: 0, y: 4}
+    sideFace: {x: 0, y: 4}
+    bottomFace: {x: 0, y: 4}
+    hardness: 6
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 1
+  - blockName: CopperBlock
+    topFace: {x: 1, y: 4}
+    sideFace: {x: 1, y: 4}
+    bottomFace: {x: 1, y: 4}
+    hardness: 7
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 1
+  - blockName: TinBlock
+    topFace: {x: 2, y: 4}
+    sideFace: {x: 2, y: 4}
+    bottomFace: {x: 2, y: 4}
+    hardness: 7
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 2
+  - blockName: LeadBlock
+    topFace: {x: 3, y: 4}
+    sideFace: {x: 3, y: 4}
+    bottomFace: {x: 3, y: 4}
+    hardness: 7
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 3
+  - blockName: IronBlock
+    topFace: {x: 4, y: 4}
+    sideFace: {x: 4, y: 4}
+    bottomFace: {x: 4, y: 4}
+    hardness: 9
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 4
+  - blockName: SilverBlock
+    topFace: {x: 5, y: 4}
+    sideFace: {x: 5, y: 4}
+    bottomFace: {x: 5, y: 4}
+    hardness: 9
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 5
+  - blockName: TungstenBlock
+    topFace: {x: 6, y: 4}
+    sideFace: {x: 6, y: 4}
+    bottomFace: {x: 6, y: 4}
+    hardness: 9
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 6
+  - blockName: MithrilBlock
+    topFace: {x: 7, y: 4}
+    sideFace: {x: 7, y: 4}
+    bottomFace: {x: 7, y: 4}
+    hardness: 10
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 7
+  - blockName: CobaltBlock
+    topFace: {x: 8, y: 4}
+    sideFace: {x: 8, y: 4}
+    bottomFace: {x: 8, y: 4}
+    hardness: 10
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 8
+  - blockName: DiamondBlock
+    topFace: {x: 9, y: 4}
+    sideFace: {x: 9, y: 4}
+    bottomFace: {x: 9, y: 4}
+    hardness: 12
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 9
+  - blockName: TerraniumBlock
+    topFace: {x: 10, y: 4}
+    sideFace: {x: 10, y: 4}
+    bottomFace: {x: 10, y: 4}
+    hardness: 15
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 10
+  - blockName: Water
+    topFace: {x: 0, y: 5}
+    sideFace: {x: 0, y: 5}
+    bottomFace: {x: 0, y: 5}
+    hardness: 0
+    miningSpeedMul: 0
+    requiredTool: 0
+    requiredToolLevel: 0
+  - blockName: WaterFlow
+    topFace: {x: 1, y: 5}
+    sideFace: {x: 1, y: 5}
+    bottomFace: {x: 1, y: 5}
+    hardness: 0
+    miningSpeedMul: 0
+    requiredTool: 0
+    requiredToolLevel: 0
+  - blockName: WoodPlanks
+    topFace: {x: 9, y: 0}
+    sideFace: {x: 9, y: 0}
+    bottomFace: {x: 9, y: 0}
+    hardness: 2
+    miningSpeedMul: 1
+    requiredTool: 2
+    requiredToolLevel: 0
+  - blockName: MiddleSite
+    topFace: {x: 10, y: 0}
+    sideFace: {x: 10, y: 0}
+    bottomFace: {x: 10, y: 0}
+    hardness: 3
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 3
+  - blockName: Deepslate
+    topFace: {x: 11, y: 0}
+    sideFace: {x: 11, y: 0}
+    bottomFace: {x: 11, y: 0}
+    hardness: 5
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 5
+  - blockName: Workbench
+    topFace: {x: 12, y: 0}
+    sideFace: {x: 12, y: 1}
+    bottomFace: {x: 9, y: 0}
+    hardness: 2
+    miningSpeedMul: 1
+    requiredTool: 2
+    requiredToolLevel: 0
+  - blockName: Furnace
+    topFace: {x: 3, y: 0}
+    sideFace: {x: 13, y: 1}
+    bottomFace: {x: 3, y: 0}
+    hardness: 5
+    miningSpeedMul: 1
+    requiredTool: 1
+    requiredToolLevel: 0

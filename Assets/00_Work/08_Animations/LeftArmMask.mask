@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LeftArmMask
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Body
+    m_Weight: 0
+  - m_Path: Body/HeadPivot
+    m_Weight: 0
+  - m_Path: Body/HeadPivot/Head
+    m_Weight: 0
+  - m_Path: Body/HeadPivot/Head/Hat
+    m_Weight: 0
+  - m_Path: Body/HeadPivot/Head/VisualHead
+    m_Weight: 0
+  - m_Path: Body/HeadPivot/Head/VisualHead/VisualHat
+    m_Weight: 0
+  - m_Path: Body/Jacket
+    m_Weight: 0
+  - m_Path: Body/LArm
+    m_Weight: 1
+  - m_Path: Body/LArm/LArm_Slim
+    m_Weight: 0
+  - m_Path: Body/LArm/LArm_Slim/LSleeve_Slim
+    m_Weight: 0
+  - m_Path: Body/LArm/LSleeve
+    m_Weight: 0
+  - m_Path: Body/RArm
+    m_Weight: 0
+  - m_Path: Body/RArm/RArm_Slim
+    m_Weight: 0
+  - m_Path: Body/RArm/RArm_Slim/RSleeve_Slim
+    m_Weight: 0
+  - m_Path: Body/RArm/RHand
+    m_Weight: 0
+  - m_Path: Body/RArm/RSleeve
+    m_Weight: 0
+  - m_Path: Legs
+    m_Weight: 0
+  - m_Path: Legs/LLeg
+    m_Weight: 0
+  - m_Path: Legs/LLeg/LPants
+    m_Weight: 0
+  - m_Path: Legs/RLeg
+    m_Weight: 0
+  - m_Path: Legs/RLeg/RPants
+    m_Weight: 0

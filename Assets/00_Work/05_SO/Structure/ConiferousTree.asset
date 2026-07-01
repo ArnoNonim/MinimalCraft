@@ -1,0 +1,228 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f8e3b253b9090e4092bdc3cdbea363b, type: 3}
+  m_Name: ConiferousTree
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.ChunkSystem.Structure.StructureSO
+  structureName: ConiferousTree
+  blocks:
+  - offset: {x: 0, y: 0, z: 0}
+    block: 7
+  - offset: {x: 0, y: 1, z: 0}
+    block: 7
+  - offset: {x: 0, y: 2, z: 0}
+    block: 7
+  - offset: {x: 0, y: 3, z: 0}
+    block: 7
+  - offset: {x: 0, y: 4, z: 0}
+    block: 7
+  - offset: {x: 0, y: 5, z: 0}
+    block: 7
+  - offset: {x: 0, y: 6, z: 0}
+    block: 7
+  - offset: {x: 0, y: 7, z: 0}
+    block: 7
+  - offset: {x: 0, y: 8, z: 0}
+    block: 8
+  - offset: {x: -1, y: 7, z: 0}
+    block: 8
+  - offset: {x: 0, y: 7, z: -1}
+    block: 8
+  - offset: {x: 0, y: 7, z: 0}
+    block: 8
+  - offset: {x: 0, y: 7, z: 1}
+    block: 8
+  - offset: {x: 1, y: 7, z: 0}
+    block: 8
+  - offset: {x: -1, y: 6, z: 0}
+    block: 8
+  - offset: {x: 0, y: 6, z: -1}
+    block: 8
+  - offset: {x: 0, y: 6, z: 0}
+    block: 8
+  - offset: {x: 0, y: 6, z: 1}
+    block: 8
+  - offset: {x: 1, y: 6, z: 0}
+    block: 8
+  - offset: {x: -2, y: 5, z: -1}
+    block: 8
+  - offset: {x: -2, y: 5, z: 0}
+    block: 8
+  - offset: {x: -2, y: 5, z: 1}
+    block: 8
+  - offset: {x: -1, y: 5, z: -2}
+    block: 8
+  - offset: {x: -1, y: 5, z: -1}
+    block: 8
+  - offset: {x: -1, y: 5, z: 0}
+    block: 8
+  - offset: {x: -1, y: 5, z: 1}
+    block: 8
+  - offset: {x: -1, y: 5, z: 2}
+    block: 8
+  - offset: {x: 0, y: 5, z: -2}
+    block: 8
+  - offset: {x: 0, y: 5, z: -1}
+    block: 8
+  - offset: {x: 0, y: 5, z: 0}
+    block: 8
+  - offset: {x: 0, y: 5, z: 1}
+    block: 8
+  - offset: {x: 0, y: 5, z: 2}
+    block: 8
+  - offset: {x: 1, y: 5, z: -2}
+    block: 8
+  - offset: {x: 1, y: 5, z: -1}
+    block: 8
+  - offset: {x: 1, y: 5, z: 0}
+    block: 8
+  - offset: {x: 1, y: 5, z: 1}
+    block: 8
+  - offset: {x: 1, y: 5, z: 2}
+    block: 8
+  - offset: {x: 2, y: 5, z: -1}
+    block: 8
+  - offset: {x: 2, y: 5, z: 0}
+    block: 8
+  - offset: {x: 2, y: 5, z: 1}
+    block: 8
+  - offset: {x: -2, y: 4, z: -1}
+    block: 8
+  - offset: {x: -2, y: 4, z: 0}
+    block: 8
+  - offset: {x: -2, y: 4, z: 1}
+    block: 8
+  - offset: {x: -1, y: 4, z: -2}
+    block: 8
+  - offset: {x: -1, y: 4, z: -1}
+    block: 8
+  - offset: {x: -1, y: 4, z: 0}
+    block: 8
+  - offset: {x: -1, y: 4, z: 1}
+    block: 8
+  - offset: {x: -1, y: 4, z: 2}
+    block: 8
+  - offset: {x: 0, y: 4, z: -2}
+    block: 8
+  - offset: {x: 0, y: 4, z: -1}
+    block: 8
+  - offset: {x: 0, y: 4, z: 0}
+    block: 8
+  - offset: {x: 0, y: 4, z: 1}
+    block: 8
+  - offset: {x: 0, y: 4, z: 2}
+    block: 8
+  - offset: {x: 1, y: 4, z: -2}
+    block: 8
+  - offset: {x: 1, y: 4, z: -1}
+    block: 8
+  - offset: {x: 1, y: 4, z: 0}
+    block: 8
+  - offset: {x: 1, y: 4, z: 1}
+    block: 8
+  - offset: {x: 1, y: 4, z: 2}
+    block: 8
+  - offset: {x: 2, y: 4, z: -1}
+    block: 8
+  - offset: {x: 2, y: 4, z: 0}
+    block: 8
+  - offset: {x: 2, y: 4, z: 1}
+    block: 8
+  - offset: {x: -3, y: 3, z: -2}
+    block: 8
+  - offset: {x: -3, y: 3, z: -1}
+    block: 8
+  - offset: {x: -3, y: 3, z: 0}
+    block: 8
+  - offset: {x: -3, y: 3, z: 1}
+    block: 8
+  - offset: {x: -3, y: 3, z: 2}
+    block: 8
+  - offset: {x: -2, y: 3, z: -3}
+    block: 8
+  - offset: {x: -2, y: 3, z: -2}
+    block: 8
+  - offset: {x: -2, y: 3, z: -1}
+    block: 8
+  - offset: {x: -2, y: 3, z: 0}
+    block: 8
+  - offset: {x: -2, y: 3, z: 1}
+    block: 8
+  - offset: {x: -2, y: 3, z: 2}
+    block: 8
+  - offset: {x: -2, y: 3, z: 3}
+    block: 8
+  - offset: {x: -1, y: 3, z: -3}
+    block: 8
+  - offset: {x: -1, y: 3, z: -2}
+    block: 8
+  - offset: {x: -1, y: 3, z: -1}
+    block: 8
+  - offset: {x: -1, y: 3, z: 0}
+    block: 8
+  - offset: {x: -1, y: 3, z: 1}
+    block: 8
+  - offset: {x: -1, y: 3, z: 2}
+    block: 8
+  - offset: {x: -1, y: 3, z: 3}
+    block: 8
+  - offset: {x: 0, y: 3, z: -3}
+    block: 8
+  - offset: {x: 0, y: 3, z: -2}
+    block: 8
+  - offset: {x: 0, y: 3, z: -1}
+    block: 8
+  - offset: {x: 0, y: 3, z: 0}
+    block: 8
+  - offset: {x: 0, y: 3, z: 1}
+    block: 8
+  - offset: {x: 0, y: 3, z: 2}
+    block: 8
+  - offset: {x: 0, y: 3, z: 3}
+    block: 8
+  - offset: {x: 1, y: 3, z: -3}
+    block: 8
+  - offset: {x: 1, y: 3, z: -2}
+    block: 8
+  - offset: {x: 1, y: 3, z: -1}
+    block: 8
+  - offset: {x: 1, y: 3, z: 0}
+    block: 8
+  - offset: {x: 1, y: 3, z: 1}
+    block: 8
+  - offset: {x: 1, y: 3, z: 2}
+    block: 8
+  - offset: {x: 1, y: 3, z: 3}
+    block: 8
+  - offset: {x: 2, y: 3, z: -3}
+    block: 8
+  - offset: {x: 2, y: 3, z: -2}
+    block: 8
+  - offset: {x: 2, y: 3, z: -1}
+    block: 8
+  - offset: {x: 2, y: 3, z: 0}
+    block: 8
+  - offset: {x: 2, y: 3, z: 1}
+    block: 8
+  - offset: {x: 2, y: 3, z: 2}
+    block: 8
+  - offset: {x: 2, y: 3, z: 3}
+    block: 8
+  - offset: {x: 3, y: 3, z: -2}
+    block: 8
+  - offset: {x: 3, y: 3, z: -1}
+    block: 8
+  - offset: {x: 3, y: 3, z: 0}
+    block: 8
+  - offset: {x: 3, y: 3, z: 1}
+    block: 8
+  - offset: {x: 3, y: 3, z: 2}
+    block: 8

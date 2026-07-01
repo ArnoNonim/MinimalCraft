@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd1dc7569cc46deae8a665c6f459018, type: 3}
+  m_Name: TinIngotRecipe
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Crafting.FurnaceRecipeSO
+  inputItem: {fileID: 11400000, guid: 2e4e90fcbf84e6942b1b7f09416015c9, type: 2}
+  resultItem: {fileID: 11400000, guid: ff961dec8c25a224a80c9b318af84c2a, type: 2}
+  smeltTime: 5

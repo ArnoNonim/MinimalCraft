@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3fc67ddabc4a85b4362b127ce98ae7, type: 3}
+  m_Name: DiamondOre
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Item.SO.BlockItemSO
+  itemName: "\uB2E4\uC774\uC544\uBAAC\uB4DC \uAD11\uC11D"
+  description: "\uC548\uB155\uD558\uC138\uC694\uC7BC\uBBFC\uD2F0\uBE44\uCC44\uB110\uC758\uD0DC\uC724\uC785\uB2C8\uB2E4\uC624\uB298\uC740\uB2E4\uC774\uC544\uB97C\uCC3E\uC73C\uB7EC\uAD11\uC9C8\uC744\uD574\uBCFC\uAC74\uB370\uC694"
+  maxStack: 64
+  itemType: 0
+  isFuel: 0
+  burnTime: 0
+  _resourcePath: Item/Ore/Block/DiamondOre
+  blockType: 19

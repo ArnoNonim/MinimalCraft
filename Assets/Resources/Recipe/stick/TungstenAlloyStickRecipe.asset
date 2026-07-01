@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fa91635a865b5f4b9f05f24b96f94fa, type: 3}
+  m_Name: TungstenAlloyStickRecipe
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Crafting.CraftingRecipeSO
+  recipeType: 0
+  minTableSize: 3
+  resultItem: {fileID: 11400000, guid: 95f28e86ea92d5f40ac15c94d1b83eed, type: 2}
+  resultCount: 4
+  ingredients:
+  - {fileID: 0}
+  - {fileID: 11400000, guid: cc05a7bf4f3c681428c453d6b0252e4c, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 7aa2c6c256a314b4aa35bd3ed46bbcf7, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: efe10bca353532146ba2053c99e49f51, type: 2}
+  - {fileID: 0}
+  shapelessIngredients:
+  - {fileID: 11400000, guid: 95f28e86ea92d5f40ac15c94d1b83eed, type: 2}
+  - {fileID: 11400000, guid: 7aa2c6c256a314b4aa35bd3ed46bbcf7, type: 2}
+  - {fileID: 11400000, guid: efe10bca353532146ba2053c99e49f51, type: 2}

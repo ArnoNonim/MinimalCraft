@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd1dc7569cc46deae8a665c6f459018, type: 3}
+  m_Name: MithrilIngotRecipe
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Crafting.FurnaceRecipeSO
+  inputItem: {fileID: 11400000, guid: e8ae2d3dd7c9c474b8edd08bb11192af, type: 2}
+  resultItem: {fileID: 11400000, guid: b5cd7dec493d2f241b0b18a253178a5a, type: 2}
+  smeltTime: 5

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 062f55621eb84471849d14a9829c3483, type: 3}
+  m_Name: StoneShovel
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Item.SO.ToolItemSO
+  itemName: "\uB3CC \uC0BD"
+  description: "\uB3CC\uC744 \uAE68\uC11C \uAE09\uC870\uD55C \uC0BD"
+  maxStack: 1
+  itemType: 1
+  isFuel: 0
+  burnTime: 0
+  _resourcePath: Item/Tool/StoneShovel
+  toolData: {fileID: 11400000, guid: 9c6d46ae2a1f5fb4abe72289a5da1491, type: 2}
+  toolTexture: {fileID: 2800000, guid: 707bb6cb9ed898647a8d53aea9cd56a3, type: 3}
+  meshThickness: 0.05

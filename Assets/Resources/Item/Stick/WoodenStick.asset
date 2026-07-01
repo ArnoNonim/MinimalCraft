@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c39e7874bf465296d5279e991781c5, type: 3}
+  m_Name: WoodenStick
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Item.SO.MaterialItemSO
+  itemName: "\uB098\uBB34 \uB9C9\uB300\uAE30"
+  description: "\uB098\uBB47\uAC00\uC9C0\uC5D0 \uC2E4\uCC98\uB7FC \uB0A0\uC544\uB4E0
+    \uC19C\uC0AC\uD0D5"
+  maxStack: 64
+  itemType: 2
+  isFuel: 1
+  burnTime: 3
+  _resourcePath: Item/Stick/WoodenStick
+  itemTexture: {fileID: 2800000, guid: 6802b08ba49e10740b7b6fb19f86da37, type: 3}
+  meshThickness: 0.05

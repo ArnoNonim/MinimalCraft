@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f007c564914240848e9e20a05d3ffccd, type: 3}
+  m_Name: PlayerStat
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Player.SO.PlayerStatSO
+  walkSpeed: 15
+  sprintSpeed: 25
+  crouchSpeed: 2.5
+  jumpForce: 70
+  maxHealth: 20
+  curHealth: 9
+  maxEfficiency: 20
+  curEfficiency: 1
+  maxHunger: 20
+  curHunger: 14
+  maxThirsty: 20
+  curThirsty: 17
+  temperature: 36.5

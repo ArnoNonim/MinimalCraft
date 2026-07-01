@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed5e3fbcd05f472bbdd70bd506c1f25c, type: 3}
+  m_Name: Apple
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.Item.SO.FoodItemSO
+  itemName: "\uC2A4\uB9C8\uB098"
+  description: "\uC0AC\uACFC\uC640 \uBE44\uC2B7\uD558\uAC8C \uC0DD\uAE34 \uC544\uB974\uCE74\uC758
+    \uC720\uC77C\uD55C \uC2DD\uB7C9\n\uC0AC\uACFC\uB294 \uC808\uB300 \uC544\uB2C8\uB2E4"
+  maxStack: 64
+  itemType: 2
+  isFuel: 0
+  burnTime: 0
+  _resourcePath: Item/Apple
+  itemTexture: {fileID: 2800000, guid: c23976ed3a93e7d43b36fae82bc9b169, type: 3}
+  meshThickness: 0.05
+  channelDuration: 2
+  consumeOnUse: 1
+  hungerRestore: 8
+  healthRestore: 0
+  thirstyRestore: 0

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf7fe49e01a771448a5db1e2723f91b, type: 3}
+  m_Name: TerrainSettings
+  m_EditorClassIdentifier: Assembly-CSharp::TerrainSettingsSO
+  seed: 1257
+  randomSeed: 0
+  octaves: 2
+  persistence: 0.766
+  lacunarity: 3.38
+  noiseScale: 0.008
+  snowMaxTemp: 0.35
+  desertMinTemp: 0.6
+  desertMaxHumid: 0.45
+  forestMinHumid: 0.55
+  mountainMinTemp: 0.491
+  mountainMaxTemp: 0.55
+  mountainMinHumid: 0.517
+  mountainMaxHumid: 0.6
+  biomeScale: 0.0018
+  blendRange: 24
+  baseHeight: 55
+  plainsHeightRange: 36
+  desertHeightRange: 15
+  snowHeightRange: 45
+  forestHeightRange: 42
+  mountainHeightRange: 96
+  dirtNoiseScale: 0.1
+  dirtMinDepth: 2
+  dirtMaxDepth: 6
+  seaLevel: 55
+  oceanDepth: 30
+  riverDepth: 12
+  pondDepth: 5
+  oceanSeaLevel: 55
+  riverSeaLevel: 55
+  pondSeaLevel: 55
+  oceanMinHumid: 0.75
+  riverMinHumid: 0.65
+  pondChance: 0.3
+  caveScale: 0.07
+  caveThreshold: 0.28
+  caveSurfaceOffset: 6
+  caveSurfaceFade: 12
+  cheeseCaveScale: 0
+  cheeseCaveThreshold: 0.55
+  cheeseCaveMinY: -35
+  cheeseCaveMaxY: 45
+  spaghettiScale1: 0
+  spaghettiScale2: 0
+  spaghettiThreshold: 0.025
+  spaghettiMinY: -35
+  spaghettiMaxY: 55
+  entranceScale: 0.2
+  entranceThreshold: 0.6
+  entranceMinY: 10
+  andesiteStartY: 30
+  deepslateStartY: 0
+  stoneTransitionScale: 0.04
+  stoneTransitionRange: 8
+  oreSettings: {fileID: 11400000, guid: 475249a86f892c646b769f9fcdd15d5d, type: 2}

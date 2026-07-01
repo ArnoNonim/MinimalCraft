@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e2ee396b556431083b13a306419a259, type: 3}
+  m_Name: Artifact
+  m_EditorClassIdentifier: Assembly-CSharp::_00_Work._01_Scripts.ChunkSystem.Structure.ArtifactItemSO
+  itemName: "\uC81C\uB124\uC2DC\uC2A4 \uC2A4\uD53C\uC5B4"
+  description: "\uC778\uAC04\uC758 \uC9C0\uD61C\uB85C\uB294 \uAC00\uACF5\uD560 \uC218
+    \uC5C6\uB294 \uC644\uBCBD\uD55C \uB300\uCE6D\uC758 \uAD6C\uCCB4\n\uD45C\uBA74\uC740
+    \uC6B0\uC8FC\uB97C \uB2F4\uC740 \uB4EF \uCE60\uD751 \uAC19\uC9C0\uB9CC,\n\uB0B4\uBD80\uB294
+    \uB05D\uC5C6\uB294 \uC2EC\uC5F0\uCC98\uB7FC \uC77C\uB801\uC774\uB294 \uBE5B\uC73C\uB85C
+    \uAC00\uB4DD \uCC28 \uC788\uB2E4\n\uC774 \uC720\uBB3C\uC740 \uC5B4\uBE44\uC2A4\uC758
+    \uC5ED\uC7A5\uACFC \uC644\uC804\uD788 \uB3C5\uB9BD\uB41C \uACF5\uAC04\uC744 \uCC3D\uCD9C\uD558\uB294\n\uAE30\uBB18\uD55C
+    \uC131\uC9C8\uC744 \uC9C0\uB2C8\uACE0 \uC788\uB2E4\n\uAD6C\uCCB4\uC5D0 \uC190\uC744
+    \uB300\uB294 \uC21C\uAC04, \uD0D0\uAD74\uAC00\uC758 \uB1CC\uB9AC\uC5D0\n'\uC5B4\uBE44\uC2A4\uC758
+    \uAE30\uC6D0'\uC5D0 \uB300\uD55C \uBC29\uB300\uD55C \uC815\uBCF4\uAC00 \uD758\uB7EC\uB4E4\uC5B4\uC628\uB2E4"
+  maxStack: 1
+  itemType: 2
+  isFuel: 0
+  burnTime: 0
+  _resourcePath: Item/Artifact
+  itemTexture: {fileID: 0}
+  meshThickness: 0.05
+  channelDuration: 3
+  consumeOnUse: 1
+  handPrefab: {fileID: 2300367847266282090, guid: 05059fe530b313a45aafbc5e79ec08b9, type: 3}
